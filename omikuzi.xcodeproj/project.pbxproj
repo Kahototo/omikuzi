@@ -15,9 +15,6 @@
 		5EC47BDB1D30CAF0000447C0 /* omikuziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC47BDA1D30CAF0000447C0 /* omikuziTests.swift */; };
 		5EC47BE61D30CAF0000447C0 /* omikuziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC47BE51D30CAF0000447C0 /* omikuziUITests.swift */; };
 		5EC47BF41D30F3D5000447C0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC47BF31D30F3D5000447C0 /* ResultViewController.swift */; };
-		5EC47BF81D30F4D9000447C0 /* bg_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC47BF51D30F4D8000447C0 /* bg_blue@2x.png */; };
-		5EC47BF91D30F4D9000447C0 /* bg_gold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC47BF61D30F4D8000447C0 /* bg_gold@2x.png */; };
-		5EC47BFA1D30F4D9000447C0 /* bg_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC47BF71D30F4D8000447C0 /* bg_red@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +49,6 @@
 		5EC47BE51D30CAF0000447C0 /* omikuziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuziUITests.swift; sourceTree = "<group>"; };
 		5EC47BE71D30CAF0000447C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC47BF31D30F3D5000447C0 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		5EC47BF51D30F4D8000447C0 /* bg_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_blue@2x.png"; sourceTree = "<group>"; };
-		5EC47BF61D30F4D8000447C0 /* bg_gold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_gold@2x.png"; sourceTree = "<group>"; };
-		5EC47BF71D30F4D8000447C0 /* bg_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_red@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +99,6 @@
 		5EC47BC41D30CAF0000447C0 /* omikuzi */ = {
 			isa = PBXGroup;
 			children = (
-				5EC47BF51D30F4D8000447C0 /* bg_blue@2x.png */,
-				5EC47BF61D30F4D8000447C0 /* bg_gold@2x.png */,
-				5EC47BF71D30F4D8000447C0 /* bg_red@2x.png */,
 				5EC47BC51D30CAF0000447C0 /* AppDelegate.swift */,
 				5EC47BC71D30CAF0000447C0 /* ViewController.swift */,
 				5EC47BF31D30F3D5000447C0 /* ResultViewController.swift */,
@@ -245,11 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC47BD01D30CAF0000447C0 /* LaunchScreen.storyboard in Resources */,
-				5EC47BF91D30F4D9000447C0 /* bg_gold@2x.png in Resources */,
 				5EC47BCD1D30CAF0000447C0 /* Assets.xcassets in Resources */,
 				5EC47BCB1D30CAF0000447C0 /* Main.storyboard in Resources */,
-				5EC47BF81D30F4D9000447C0 /* bg_blue@2x.png in Resources */,
-				5EC47BFA1D30F4D9000447C0 /* bg_red@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +489,7 @@
 				5EC47BEC1D30CAF0000447C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC47BED1D30CAF0000447C0 /* Build configuration list for PBXNativeTarget "omikuziTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +498,7 @@
 				5EC47BEF1D30CAF0000447C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC47BF01D30CAF0000447C0 /* Build configuration list for PBXNativeTarget "omikuziUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +507,7 @@
 				5EC47BF21D30CAF0000447C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
