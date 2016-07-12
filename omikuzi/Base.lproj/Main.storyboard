@@ -23,22 +23,13 @@
                                 <connections>
                                     <action selector="gacha" destination="BYZ-38-t0r" eventType="touchUpInside" id="0X0-Tr-o6Q"/>
                                     <action selector="getOmikuzi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Abl-MQ-lsU"/>
-                                    <segue destination="dkA-ui-cYG" kind="presentation" id="mPO-Tp-Yaf"/>
+                                    <segue destination="dkA-ui-cYG" kind="presentation" id="W4J-E7-jZi"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXK-qi-sDD">
-                                <rect key="frame" x="110" y="133" width="100" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="myLabel" destination="eXK-qi-sDD" id="56x-Pa-SaA"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,7 +51,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="modoru" destination="dkA-ui-cYG" eventType="touchUpInside" id="aB7-2Z-YVh"/>
+                                    <action selector="modoru" destination="dkA-ui-cYG" eventType="touchUpInside" id="Wsl-8D-br0"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRG-85-2rp">
@@ -74,7 +65,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="mylabel" destination="FRG-85-2rp" id="dLB-Gl-xib"/>
+                        <outlet property="myLabel" destination="FRG-85-2rp" id="GRL-rk-14W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4D-Zp-7hU" userLabel="First Responder" sceneMemberID="firstResponder"/>

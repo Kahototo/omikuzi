@@ -10,29 +10,31 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
+    @IBOutlet weak var myLabel: UILabel!
     
-    @IBOutlet weak var mylabel: UILabel!
-    
-    @IBAction func omikuzi(sender: AnyObject) {
-        let omikuziArray: [String] = ["大吉","吉","吉","吉","中吉","中吉","小吉","小吉","小吉","凶"]
-        
-        //乱数
-        _ = Int(rand() % 10)
-        
-        if mylabel.text == "大吉" {
-            mylabel.textColor = UIColor.redColor()
-        } else {
-            mylabel.textColor = UIColor.yellowColor()
-        }
-        
-        
-        
-    }
     override func viewDidLoad(){
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+
     
+    func omikuzi(sender: AnyObject) {
+        let omikuziArray: [String] = ["大吉","吉","吉","吉","中吉","中吉","小吉","小吉","小吉","凶"]
+        
+        //乱数
+        
+         let number = Int(rand() % 10)
+        
+        myLabel.text = omikuziArray[number]
+        
+        if myLabel.text == "大吉" {
+            myLabel.textColor = UIColor.redColor()
+        } else {
+            myLabel.textColor = UIColor.yellowColor()
+        }
+        
+        }
+        
+    }
     
     override func didReceiveMemoryWarning(){
         super.didReceiveMemoryWarning()
