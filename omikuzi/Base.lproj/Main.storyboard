@@ -23,7 +23,7 @@
                                 <connections>
                                     <action selector="gacha" destination="BYZ-38-t0r" eventType="touchUpInside" id="0X0-Tr-o6Q"/>
                                     <action selector="getOmikuzi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Abl-MQ-lsU"/>
-                                    <segue destination="dkA-ui-cYG" kind="presentation" id="9Mf-MN-ZcP"/>
+                                    <segue destination="dkA-ui-cYG" kind="presentation" id="mPO-Tp-Yaf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXK-qi-sDD">
@@ -60,7 +60,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="modoru" destination="dkA-ui-cYG" eventType="touchUpInside" id="W40-rR-q25"/>
+                                    <action selector="modoru" destination="dkA-ui-cYG" eventType="touchUpInside" id="aB7-2Z-YVh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRG-85-2rp">
@@ -74,7 +74,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="label" destination="FRG-85-2rp" id="GLD-yy-jfL"/>
+                        <outlet property="mylabel" destination="FRG-85-2rp" id="98M-1m-Flf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4D-Zp-7hU" userLabel="First Responder" sceneMemberID="firstResponder"/>

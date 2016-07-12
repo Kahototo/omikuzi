@@ -11,60 +11,52 @@ import UIKit
 class ResultViewController: UIViewController {
     
     
-    @IBOutlet var label: UILabel!
+    @IBOutlet weak var mylabel: UILabel!
     
-    var omikuziArray: [UILabel]!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBAction func omikuzi(sender: AnyObject) {
+        let omikuziArray: [String] = ["大吉","吉","吉","吉","中吉","中吉","小吉","小吉","小吉","凶"]
         
-        let number = Int(rand() % 9)
+        //乱数
+        _ = Int(rand() % 10)
         
-        omikuziArray = [UIImage(named: "大吉")!,
-                        UILabel(named: "凶")!,
-                        UILabel(named: "吉")!,
-                        UILabel(named: "吉")!,
-                        UILabel(named: "吉")!,
-                        UILabel(named: "中吉")!,
-                        UILabel(named: "中吉")!,
-                        UILabel(named: "小吉")!,
-                        UILabel(named: "小吉")!,
-                        UILabel(named: "小吉")!
-            
-        ]
-        
-        label.text = omikuziArray[number]
-        
-        if label.text == "大吉" {
-            label.textColor = UIColor.redColor()
+        if mylabel.text == "大吉" {
+            mylabel.textColor = UIColor.redColor()
         } else {
-            label.textColor = UIColor.yellowColor()
+            mylabel.textColor = UIColor.yellowColor()
         }
         
-        func didReceiveMemoryWarning() {
-            super.didReceiveMemoryWarning()
-            // Dispose of any resources that can be recreated.
-        }
+        
+        
+    }
+    override func viewDidLoad(){
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
+    
+    override func didReceiveMemoryWarning(){
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+        
+    }
     
     @IBAction func modoru() {
         
         self.dismissViewControllerAnimated(true, completion: nil)
         
     }
+    
+    
+    
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }
-
-
-
-/*
- // MARK: - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
- // Get the new view controller using segue.destinationViewController.
- // Pass the selected object to the new view controller.
- }
- */
-
 
