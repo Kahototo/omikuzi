@@ -63,8 +63,8 @@
                                     <action selector="modoru" destination="dkA-ui-cYG" eventType="touchUpInside" id="aB7-2Z-YVh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRG-85-2rp">
-                                <rect key="frame" x="100" y="101" width="150" height="93"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRG-85-2rp">
+                                <rect key="frame" x="85" y="98" width="150" height="93"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -74,7 +74,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="mylabel" destination="FRG-85-2rp" id="98M-1m-Flf"/>
+                        <outlet property="mylabel" destination="FRG-85-2rp" id="dLB-Gl-xib"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4D-Zp-7hU" userLabel="First Responder" sceneMemberID="firstResponder"/>
